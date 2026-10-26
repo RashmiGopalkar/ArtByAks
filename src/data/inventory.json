@@ -1,0 +1,26 @@
+{
+  "updatedAt": "2026-10-25T13:10:17.103Z",
+  "isCustom": true,
+  "paintings": [
+    {
+      "title": "Whispers of ocean",
+      "category": "Warli Art",
+      "medium": "Fine White Pigment on Terracotta Canvas",
+      "dimensions": "12 x 16 inches (30 x 40 cm)",
+      "sizeCategory": "Small",
+      "price": 1500,
+      "originalPrice": 1800,
+      "status": "available",
+      "isFeatured": true,
+      "images": [
+        "/uploads/WhatsAppImage2026-10-1792933807460-u0vl.jpg"
+      ],
+      "description": "Original handmade painting crafted by Akshatha Gopalkar with archival pigments and fine brushes.",
+      "story": "Handmade with patience and love to bring warmth and authentic folk art to your home.",
+      "id": "art-1792933817092",
+      "rating": 5,
+      "reviewCount": 0,
+      "year": "2026"
+    }
+  ]
+}

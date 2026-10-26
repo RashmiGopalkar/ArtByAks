@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-cursive: 'Caveat', cursive;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #292524;
+    background-color: #faf9f6;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+  }
+
+  .font-signature {
+    font-family: var(--font-cursive);
+  }
+}
+
+/* Subtle, refined scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f4ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2ddd5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c7c0b5;
+}
